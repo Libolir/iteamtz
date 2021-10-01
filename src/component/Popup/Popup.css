@@ -1,0 +1,47 @@
+.modal {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.842);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: #af3d38; line */
+}
+
+
+.modalcontent {
+    pointer-events: stroke;
+    padding: 16px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.input{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input h4 {
+    margin: 5px;
+    padding: 0;
+    color: #000000c4;
+    text-align: center;
+}
+
+input {
+    border: 2px solid #5f4191;
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    border: 2px solid #5f4191;
+    padding: 8px 40px 8px 40px;
+    margin: 5px;
+    background-color: white;
+    cursor: pointer;
+}

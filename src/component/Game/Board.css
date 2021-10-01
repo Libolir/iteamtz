@@ -1,0 +1,40 @@
+.board {
+    /* padding: 40px; */
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    position: relative;
+    text-align: center;
+    background-color: #44425e;
+    border: 0.5vw solid #a855c1 ;
+    min-width: 30%;
+    cursor: pointer;
+}
+.square::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.square:hover {
+    background-color: #555274;
+    transition: .3s all ease;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+img {
+    padding: 10%;
+    width: 80%;
+    height: 80%;
+}
